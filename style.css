@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body,input,button {
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+}
+
+.nav{
+    display: flex;
+    width: 99vw;
+    justify-content: space-between;
+    margin-left: 16px;
+    top: 0;
+}
+
+#link {
+    text-decoration: none;
+    color: gray;
+}
+
+#language {
+
+}
+
+#grid {
+    padding-left: 10px;
+    height:30px;
+    width:30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#left-top-ul,
+#right-top-ul{
+    display: flex;
+    margin: 10px ;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+.left-side{
+    display: flex;
+}
+
+.top-li{
+    padding-right: 20px;
+}
+
+.right-li{
+    padding-left: 20px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+}
+
+#sign-in {
+    margin-right: 10px;
+    background-color: #0080FF;
+    color: white;
+    font-weight: bold;
+    padding: 0 16px;
+    border-radius: 4px;
+    height: 35px;
+    border: none;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    justify-content: center;
+    width: 100%;
+}
+
+#google-img{
+    width: 275px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; 
+}
+
+#search-input {
+    width: 26%;
+    height: 44px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 25px;
+    border-color: #E5E5E5;
+    border-style: solid;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1200px-Magnifying_glass_icon.svg.png) no-repeat left;
+    background-position-x: 2%;
+    background-size: 12px;
+}
+
+#google-mic {
+    position: relative;
+    width: 13px;
+    height: 18px;
+    left: 260px;
+    bottom: 33px;
+}
+
+#search-input:hover {
+    box-shadow: 1px 2px rgba(211, 211, 211, 0.705);
+    border: 2px solid #E5E5E5;
+}
+
+#search-input:focus {
+    box-shadow: 1px 2px rgba(211, 211, 211, 0.705);
+    border: 2px solid #E5E5E5;
+    outline:none;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#search-button{
+    background-color: #E5E5E5;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    height: 40px;
+    border: none;
+    margin: 11px 4px;
+    margin-left: 20px;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+#search-button:hover{
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+#lang-text {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer{
+    background-color: #f2f2f2;
+    height: 47px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    position: fixed;  
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.footer-left {
+    display: flex;
+    list-style-type: none;
+    margin-left: 35px;
+}
+
+.footer-right {
+    display: flex;
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+#footer-left-li{
+    padding-right: 30px;
+}
+
+#footer-right-li{
+    padding-left: 30px;
+}
